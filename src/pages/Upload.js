@@ -48,7 +48,7 @@ const Upload = () => {
             type="text"
             value={genre}
             onChange={(e) => setGenre(e.target.value)}
-            label="Phone"
+            label="Genre"
             placeholder="Enter the genre of song..."
           />
         </div>
@@ -85,7 +85,6 @@ const Upload = () => {
                 </label>
                 <p className="pl-1">or drag and drop</p>
               </div>
-              <p className="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
             </div>
           </div>
         </div>
